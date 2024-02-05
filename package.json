@@ -11,6 +11,9 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "apollo-server-micro": "^3.13.0",
+    "graphql": "^16.8.1",
+    "micro": "^9.4.1",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
