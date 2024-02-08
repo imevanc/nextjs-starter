@@ -1,44 +1,10 @@
-import "reflect-metadata";
-import { ApolloServer } from "apollo-server-micro";
-import {
-  buildSchema,
-  Field,
-  ID,
-  ObjectType,
-  Query,
-  Resolver,
-} from "type-graphql";
+import { NextRequest, NextResponse } from "next/server";
 
-@ObjectType()
-export class Dog {
-  @Field(() => ID)
-  name: string;
+export async function GET(
+  req: NextRequest,
+  context: { params: { id: string } },
+) {
+  const id = context.params.id;
 
-  @Field(() => [String])
-  description: string[];
-}
-
-@Resolver(Dog)
-export class DogsResolver {
-  @Query(() => [Dog])
-  dogs(): Dog[] {
-    return [{ name: "Bo" }, { name: "Boo" }];
-  }
-}
-
-const schema = await buildSchema({ resolvers: [DogsResolver] });
-
-const server = new ApolloServer({ schema });
-
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
-
-const startServer = server.start();
-
-export default async function handler(req, res) {
-  await startServer;
-  await server.createHandler({ path: "/api/graphql" })(req, res);
+  return NextResponse.json({ success: true }, { status: 200 });
 }
