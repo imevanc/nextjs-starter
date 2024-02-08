@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext", "esnext.asynciterable"],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "target": "es2021",
-    "module": "commonjs",
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -25,7 +24,4 @@
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "./jest-setup.ts"],
   "types": ["jest", "node", "@types/jest", "@types/testing-library__jest-dom"],
   "exclude": ["node_modules"],
-  "emitDecoratorMetadata": true,
-  "experimentalDecorators": true,
-  "strictPropertyInitialization": false,
 }
