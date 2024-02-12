@@ -1,9 +1,10 @@
+// @ts-nocheck
 import { exec } from "node:child_process";
 import { join } from "node:path";
 import { Readable } from "node:stream";
 import { fetch } from "@whatwg-node/fetch";
 
-const PORT = 3333;
+const PORT = 3000;
 
 describe("nextjs 13 App Router", () => {
   it("should show GraphiQL", async () => {
@@ -37,12 +38,12 @@ describe("nextjs 13 App Router", () => {
       "keep-alive": null,
     }).toMatchInlineSnapshot(`
       {
-        "connection": "close",
+        "connection": "keep-alive",
         "content-type": "application/json; charset=utf-8",
         "date": null,
         "keep-alive": null,
         "transfer-encoding": "chunked",
-        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding",
+        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url",
       }
     `);
 
