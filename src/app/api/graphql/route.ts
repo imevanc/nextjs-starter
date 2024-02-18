@@ -1,6 +1,7 @@
 import { createSchema, createYoga } from "graphql-yoga";
 
 const { handleRequest } = createYoga({
+  graphiql: false,
   schema: createSchema({
     typeDefs: /* GraphQL */ `
       type Query {
