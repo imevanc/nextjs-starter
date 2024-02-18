@@ -1,9 +1,28 @@
-import Image from "next/image";
+"use client";
+import { NextPage } from "next";
 
-export default function Home() {
+const Home: NextPage = () => {
+  const handleClick = (buttonName: string) => {
+    console.log(`${buttonName} clicked`);
+  };
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    Main
-    </main>
+    <div className="flex flex-col items-center justify-center h-screen">
+      <h1 className="text-2xl font-bold mb-4">Welcome to the Copilot Page</h1>
+      <button 
+        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 mb-2"
+        onClick={() => handleClick('Button 1')}
+      >
+        Button 1
+      </button>
+      <button 
+        className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700"
+        onClick={() => handleClick('Button 2')}
+      >
+        Button 2
+      </button>
+    </div>
+
   );
-}
+} 
+
+export default Home;
