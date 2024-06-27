@@ -5,4 +5,4 @@ import RootLayout from "@/app/layout";
 type Overrides = {};
 
 export const renderPage = (children: ReactNode, overrides?: Overrides) =>
-    render(<RootLayout>{children}</RootLayout>);
+  render(<RootLayout>{children}</RootLayout>);

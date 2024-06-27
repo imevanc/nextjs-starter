@@ -7,5 +7,5 @@ import { renderPage } from "../utils/renderPage";
 test("render the Homepage", async () => {
   renderPage(<Home />);
 
-  expect(screen.getByRole("main")).toBeVisible();
+  expect(screen.getByRole("heading")).toBeVisible();
 });
