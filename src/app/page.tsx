@@ -1,4 +1,5 @@
-import type { NextPage } from "next";
+"use client";
+import type {NextPage} from "next";
 
 const Home: NextPage = () => {
   const handleClick = (buttonName: string) => {
