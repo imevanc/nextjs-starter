@@ -48,7 +48,7 @@ jobs:
     name: Wait for vercel
     runs-on: ubuntu-latest
     outputs:
-      preview_url: ${{ steps.waitForVercelPreviewDeployment.outputs.url }}/?x-vercel-protection-bypass=${{secrets.VERCEL_AUTOMATION_BYPASS_SECRET}}
+      preview_url: ${{ steps.waitForVercelPreviewDeployment.outputs.url }}
     steps:
       - name: Wait for Vercel preview deployment to be ready
         uses: patrickedqvist/wait-for-vercel-preview@main
