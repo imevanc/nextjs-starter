@@ -56,7 +56,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           max_timeout: 120
-  test_e2e1:
+  test_e2e:
     name: Test e2e
     needs: wait_for_vercel
     runs-on: ubuntu-latest
