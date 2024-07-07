@@ -14,3 +14,8 @@ npm run test:coverage
 ```
 npm run test:type
 ```
+
+### Run e2e tests
+```
+npx playwright test
+```
