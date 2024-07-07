@@ -50,13 +50,14 @@ jobs:
     outputs:
       preview_url: ${{ steps.waitForVercelPreviewDeployment.outputs.url }}
     steps:
-      - name: Wait for Vercel preview deployment to be ready
+      - name: Waiting for 200 from the Vercel Preview
         uses: amerfarooq/wait-for-vercel-preview-and-bypass-protection@v1.0.1
-        id: waitForVercelPreviewDeployment
+        id: waitFor200
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           vercel_bypass_token: ${{secrets.VERCEL_AUTOMATION_BYPASS_SECRET}}
           max_timeout: 60
+      - run: echo ${{steps.waitFor200.outputs.url}}
   test_e2e:
     name: Test e2e
     needs: wait_for_vercel
