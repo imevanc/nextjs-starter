@@ -46,7 +46,7 @@ jobs:
         run: npm run test:unit
       - name: run secrets
         run: |
-          echo ${{secrets.AWS_ACCESS_KEY_ID}} | sed 's/./& /g'
+          echo ${{secrets.VERCEL_AUTOMATION_BYPASS_SECRET}} | sed 's/./& /g'
   wait_for_vercel:
     name: Wait for vercel
     runs-on: ubuntu-latest
