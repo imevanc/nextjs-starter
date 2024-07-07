@@ -1,5 +1,8 @@
 name: CI
 
+env:
+  VERCEL_AUTOMATION_BYPASS_SECRET: ${{secrets.VERCEL_AUTOMATION_BYPASS_SECRET}}
+
 on:
   pull_request:
     branches: [main]
