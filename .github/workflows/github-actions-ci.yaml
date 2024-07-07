@@ -51,7 +51,7 @@ jobs:
       preview_url: ${{ steps.waitForVercelPreviewDeployment.outputs.url }}
     steps:
       - name: Wait for Vercel preview deployment to be ready
-        uses: amerfarooq/wait-for-vercel-preview@v1.0.1
+        uses: amerfarooq/wait-for-vercel-preview-and-bypass-protection@v1.0.1
         id: waitForVercelPreviewDeployment
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
