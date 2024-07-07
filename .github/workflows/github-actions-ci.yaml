@@ -1,8 +1,5 @@
 name: CI
 
-env:
-  VERCEL_AUTOMATION_BYPASS_SECRET: ${{secrets.VERCEL_AUTOMATION_BYPASS_SECRET}}
-
 on:
   pull_request:
     branches: [main]
@@ -54,11 +51,12 @@ jobs:
       preview_url: ${{ steps.waitForVercelPreviewDeployment.outputs.url }}
     steps:
       - name: Wait for Vercel preview deployment to be ready
-        uses: patrickedqvist/wait-for-vercel-preview@main
+        uses: amerfarooq/wait-for-vercel-preview@v1.0.1
         id: waitForVercelPreviewDeployment
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          max_timeout: 120
+          vercel_bypass_token: ${{secrets.VERCEL_AUTOMATION_BYPASS_SECRET}}
+          max_timeout: 60
   test_e2e:
     name: Test e2e
     needs: wait_for_vercel
