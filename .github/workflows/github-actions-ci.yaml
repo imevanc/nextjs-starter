@@ -57,6 +57,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           vercel_bypass_token: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
           max_timeout: 60
+        env:
+          vercel_bypass_token: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
       - run: echo ${{steps.waitFor200.outputs.url}}
   test_e2e:
     name: Test e2e
