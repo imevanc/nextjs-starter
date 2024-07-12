@@ -1,7 +1,7 @@
-import { fireEvent, screen } from "@testing-library/react";
-import { expect, test } from "@jest/globals";
+import {fireEvent, screen} from "@testing-library/react";
+import {expect, test} from "@jest/globals";
 import Home from "@/app/page";
-import { renderPage } from "../utils/renderPage";
+import {renderPage} from "../utils/renderPage";
 
 test("render the Homepage", async () => {
   renderPage(<Home />);
@@ -16,7 +16,7 @@ test("render the Homepage", async () => {
 
   fireEvent.click(screen.getByRole("button", { name: /button 2/i }));
   expect(mockedConsoleLog).toHaveBeenCalled();
-  fireEvent.click(screen.getByRole("button", { name: /button 1/i }));
+  fireEvent.click(screen.getByRole("button",       { name: /button 1/i }));
   expect(mockedConsoleLog).toHaveBeenCalled();
 
   mockedConsoleLog.mockRestore();
