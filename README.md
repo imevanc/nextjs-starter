@@ -24,9 +24,9 @@
 - ⛑ TypeScript
 - 📏 React Testing Library — A very light weight solution for testing React components
 - 💖 Playwright — Fast and reliable e2e testing
-- 🐶 Husky — For running scripts before committing
-- 🚓 Commitlint — To make sure your commit messages follow the convention
-- 👷 PR Workflow — Run Type Check & Linters on Pull Requests
+- 🐶 Husky — Enhances your commits and more woof!
+- 🚓 Commitlint — Checks if your commit messages meet the conventional commit format
+- 👷 PR Workflow — Run Checks on Pull Requests
 
 
 ### Run unit tests
