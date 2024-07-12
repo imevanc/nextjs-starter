@@ -22,10 +22,12 @@
 - ⚡️ Next.js 14 (App Router)
 - ⚛️ React 18
 - ⛑ TypeScript
+- 🛡 Jest - Delightful JavaScript Testing
 - 📏 React Testing Library — A very light weight solution for testing React components
 - 💖 Playwright — Fast and reliable e2e testing
 - 🐶 Husky — Enhances your commits and more woof!
-- 🚓 Commitlint — Checks if your commit messages meet the conventional commit format
+- 🚓 Semantic Release — Fully automated version management and package publishing
+
 - 👷 PR Workflow — Run Checks on Pull Requests
 
 
