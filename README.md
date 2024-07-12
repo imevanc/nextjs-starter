@@ -27,7 +27,7 @@
 - 💖 Playwright — Fast and reliable e2e testing
 - 🐶 Husky — Enhances your commits and more woof!
 - 🚓 Semantic Release — Fully automated version management and package publishing
-
+- 💻 Commitlint - Get high commit message quality
 - 👷 PR Workflow — Run Checks on Pull Requests
 
 
