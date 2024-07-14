@@ -14,14 +14,13 @@
 </div>
 
 <div align="center">
-  <a href="https://www.codefactor.io/repository/github/imevanc/nextjs-starter">
-    <img src="https://www.codefactor.io/repository/github/imevanc/nextjs-starter/badge" alt="CodeFactor" />
-  </a>
-</div>
-
-<div align="center">
   <sub>Created by <a href="https://x.com/intent/follow?screen_name=imevancc">@imevanc</a></sub>
 </div>
+<br/>
+
+## Quality Tests
+[![CodeFactor](https://www.codefactor.io/repository/github/imevanc/nextjs-starter/badge)](https://www.codefactor.io/repository/github/imevanc/nextjs-starter) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=imevanc_nextjs-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=imevanc_nextjs-starter) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=imevanc_nextjs-starter&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=imevanc_nextjs-starter) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=imevanc_nextjs-starter&metric=bugs)](https://sonarcloud.io/dashboard?id=imevanc_nextjs-starter) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=imevanc_nextjs-starter&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=imevanc_nextjs-starter)
+
 
 ## Features
 
