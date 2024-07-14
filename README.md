@@ -28,6 +28,8 @@
 - ⚡️ Next.js 14 (App Router)
 - ⚛️ React 18
 - ⛑ TypeScript
+- 🏋️ CodeFactor - It instantly performs code review with every GitHub/Bitbucket commit or Pull Request
+- 🏄‍♂️ SonarCloud - It is designed to help you achieve a state of Clean Code
 - 🛡 Jest - Delightful JavaScript Testing
 - 📏 React Testing Library — A very light weight solution for testing React components
 - 💖 Playwright — Fast and reliable e2e testing
