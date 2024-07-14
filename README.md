@@ -14,6 +14,12 @@
 </div>
 
 <div align="center">
+  <a href="https://www.codefactor.io/repository/github/imevanc/nextjs-starter">
+    <img src="https://www.codefactor.io/repository/github/imevanc/nextjs-starter/badge" alt="CodeFactor" />
+  </a>
+</div>
+
+<div align="center">
   <sub>Created by <a href="https://x.com/intent/follow?screen_name=imevancc">@imevanc</a></sub>
 </div>
 
