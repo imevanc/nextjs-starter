@@ -7,7 +7,7 @@ test("has title", async ({ page }) => {
 });
 
 test("has all the accessible elements", async ({ page }) => {
-  await page.goto("http://localhost:3000/");
+  await page.goto("https://nextjs-starter-delta-one.vercel.app/");
 
   await expect(
     page.getByRole("heading", { name: /Unleashing Creativity: Powered by Generative AI/i }),
