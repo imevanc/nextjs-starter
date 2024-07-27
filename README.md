@@ -1,6 +1,12 @@
-# Next.js starter project
+# Next.js starter template
 
 <div align="center"><strong>A TypeScript starter kit for Next.js, equipped with all the essential tools to kickstart your next project 🚀💻⚡️</strong></div>
+<br />
+
+<div align="center">
+ <img src="https://github.com/user-attachments/assets/42975b02-0071-45d5-aebb-3aba5308d258" alt="landing-page"/>
+</div>
+
 <br />
 
 <div align="center">
