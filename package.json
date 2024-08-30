@@ -25,6 +25,9 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@playwright/test": "^1.45.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^10.1.7",
     "@testing-library/jest-dom": "^6.4.1",
     "@testing-library/react": "^16.0.0",
     "@types/jest": "^29.5.12",
@@ -36,7 +39,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8",
     "prettier": "3.3.3",
-    "semantic-release": "^24.0.0",
+    "semantic-release": "^24.1.0",
     "tailwindcss": "^3.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5"
