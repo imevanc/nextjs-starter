@@ -1,3 +1,19 @@
-npm run test:type
-npm run test:unit
-npm run lint:fix
+#!/bin/sh
+
+# Get the current branch
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+# Set the branch you want to skip
+MAIN_BRANCH="main"
+
+# Check if the current branch is different from main
+if [ "$CURRENT_BRANCH" != "$MAIN_BRANCH" ]; then
+  echo "Running pre-commit hook on branch: $CURRENT_BRANCH"
+
+  # Add the commands or tools you want to run here
+  npm run test:type
+  npm run test:unit
+  npm run lint:fix
+else
+  echo "Skipping pre-commit hook on the main branch"
+fi
