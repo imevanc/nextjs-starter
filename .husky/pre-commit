@@ -1,31 +1,9 @@
-#!/bin/sh
-
-# .husky/commit-msg
-# Skip commit message validation for semantic-release commits
-if grep -q '\[skip ci\]' "$1"; then
-  echo "Skipping commitlint for semantic-release commit"
+# Skip pre-commit hook if it's a semantic-release commit (with [skip ci])
+if git log -1 --pretty=%B | grep -q '\[skip ci\]'; then
+  echo "Skipping pre-commit hook for semantic-release commit"
   exit 0
-else
-  # Get the current branch
-  CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-
-  # Set the branch you want to skip
-  MAIN_BRANCH="main"
-
-  # Check if the current branch is different from main
-  if [ "$CURRENT_BRANCH" != "$MAIN_BRANCH" ]; then
-    echo "Running pre-commit hook on branch: $CURRENT_BRANCH"
-
-    # Add the commands or tools you want to run here
-    npm run test:type
-    npm run test:unit
-    npm run lint:fix
-  else
-    echo "Skipping pre-commit hook on the main branch"
-  fi
 fi
 
-npx --no-install commitlint --edit "$1"
-
-
-
+npm run test:type
+npm run test:unit
+npm run lint:fix
