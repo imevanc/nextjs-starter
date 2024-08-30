@@ -1,10 +1,10 @@
 "use client";
 
-import {useState} from "react";
-import type {NextPage} from "next/types";
-import {Dialog, DialogPanel} from "@headlessui/react";
-import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
-import {toKebabCase} from "casenator";
+import { useState } from "react";
+import type { NextPage } from "next/types";
+import { Dialog, DialogPanel } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { toKebabCase } from "casenator";
 
 const navigation = [
   { name: "Product", href: "#" },
