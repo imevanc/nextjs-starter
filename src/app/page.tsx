@@ -4,7 +4,6 @@ import { useState } from "react";
 import type { NextPage } from "next/types";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { toKebabCase } from "casenator";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -15,7 +14,6 @@ const navigation = [
 
 const Home: NextPage = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
-  console.log(toKebabCase);
   return (
     <div className="bg-gray-900">
       <header className="absolute inset-x-0 top-0 z-50">
