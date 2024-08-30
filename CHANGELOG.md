@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/imevanc/nextjs-starter/compare/v1.4.0...v1.4.1) (2024-08-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v14.2.7 ([#78](https://github.com/imevanc/nextjs-starter/issues/78)) ([4e0ee47](https://github.com/imevanc/nextjs-starter/commit/4e0ee47f386cc5882fbdf153d413ae32bc9777d5))
+
 # [1.4.0](https://github.com/imevanc/nextjs-starter/compare/v1.3.0...v1.4.0) (2024-08-30)
 
 
