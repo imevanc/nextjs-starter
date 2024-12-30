@@ -1,3 +1,11 @@
+## [1.4.2](https://github.com/imevanc/nextjs-starter/compare/v1.4.1...v1.4.2) (2024-12-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @headlessui/react to v2.2.0 ([#92](https://github.com/imevanc/nextjs-starter/issues/92)) ([f40d9f3](https://github.com/imevanc/nextjs-starter/commit/f40d9f36c315b359b000b2a90cfa5e90d2609d50))
+* **deps:** update dependency next to v14.2.15 [security] ([#99](https://github.com/imevanc/nextjs-starter/issues/99)) ([7f959bc](https://github.com/imevanc/nextjs-starter/commit/7f959bce7ef3a7093f77f8f8ba62d58517dca9a9))
+
 ## [1.4.1](https://github.com/imevanc/nextjs-starter/compare/v1.4.0...v1.4.1) (2024-08-30)
 
 
