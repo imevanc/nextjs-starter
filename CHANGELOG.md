@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/imevanc/nextjs-starter/compare/v1.4.2...v1.5.0) (2024-12-30)
+
+
+### Features
+
+* update husky deps ([#102](https://github.com/imevanc/nextjs-starter/issues/102)) ([784441d](https://github.com/imevanc/nextjs-starter/commit/784441da5f50fdc0a700607541ed8ed9ced166d8))
+
 ## [1.4.2](https://github.com/imevanc/nextjs-starter/compare/v1.4.1...v1.4.2) (2024-12-30)
 
 
