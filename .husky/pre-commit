@@ -6,4 +6,4 @@ fi
 
 npm run test:type
 npm run test:unit
-npm run lint:fix
+npm run prettier:check
