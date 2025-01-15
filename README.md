@@ -31,8 +31,8 @@
 
 ## Features
 
-- ⚡️ Next.js 14 (App Router)
-- ⚛️ React 18
+- ⚡️ Next.js 15
+- ⚛️ React 19
 - ⛑ TypeScript
 - 🏋️ CodeFactor - It instantly performs code review with every GitHub/Bitbucket commit or Pull Request
 - 🏄‍♂️ SonarCloud - It is designed to help you achieve a state of Clean Code
