@@ -28,7 +28,7 @@
     "@playwright/test": "^1.45.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^10.1.7",
+    "@semantic-release/github": "^11.0.0",
     "@testing-library/jest-dom": "^6.4.1",
     "@testing-library/react": "^16.0.0",
     "@types/jest": "^29.5.12",
