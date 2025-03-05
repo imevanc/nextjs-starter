@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/imevanc/nextjs-starter/compare/v1.5.2...v1.5.3) (2025-03-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.2.1 ([#118](https://github.com/imevanc/nextjs-starter/issues/118)) ([d218aa2](https://github.com/imevanc/nextjs-starter/commit/d218aa2e7777e8aadd54b83aab60666b0c219b07))
+
 ## [1.5.2](https://github.com/imevanc/nextjs-starter/compare/v1.5.1...v1.5.2) (2025-01-15)
 
 
