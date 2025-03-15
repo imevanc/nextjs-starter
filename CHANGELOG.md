@@ -1,3 +1,10 @@
+## [1.5.5](https://github.com/imevanc/nextjs-starter/compare/v1.5.4...v1.5.5) (2025-03-15)
+
+
+### Bug Fixes
+
+* kick ci ([#135](https://github.com/imevanc/nextjs-starter/issues/135)) ([379d770](https://github.com/imevanc/nextjs-starter/commit/379d770da990cabf28a754173f1dc36965068388))
+
 ## [1.5.4](https://github.com/imevanc/nextjs-starter/compare/v1.5.3...v1.5.4) (2025-03-15)
 
 
