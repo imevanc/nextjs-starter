@@ -1,5 +1,4 @@
 import { screen } from "@testing-library/react";
-import { expect, test } from "@jest/globals";
 import { renderPage } from "../utils/renderPage";
 import Home from "@/app/page";
 

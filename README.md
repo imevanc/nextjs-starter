@@ -67,4 +67,4 @@ npx playwright test
 ```
 
 ## Licensing
-This project is licensed under the MIT License. Please read the [license](LICENSE) file for more information.
+This project is licensed under the MIT License. Please read the [LICENSE](LICENSE) file for more information.

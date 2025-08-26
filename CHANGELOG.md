@@ -1,3 +1,62 @@
+## [1.5.10](https://github.com/imevanc/nextjs-starter/compare/v1.5.9...v1.5.10) (2025-08-07)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo ([#160](https://github.com/imevanc/nextjs-starter/issues/160)) ([2da6213](https://github.com/imevanc/nextjs-starter/commit/2da6213c48a66daa76855d3ca58c57803fa0ce0a))
+
+## [1.5.9](https://github.com/imevanc/nextjs-starter/compare/v1.5.8...v1.5.9) (2025-08-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @headlessui/react to v2.2.7 ([#158](https://github.com/imevanc/nextjs-starter/issues/158)) ([1356943](https://github.com/imevanc/nextjs-starter/commit/1356943d620887439d3c4a684e825b8ac7e288af))
+* **deps:** update dependency next to v15.3.4 ([#153](https://github.com/imevanc/nextjs-starter/issues/153)) ([9a251ac](https://github.com/imevanc/nextjs-starter/commit/9a251accde743e7fe158b862e09a99a04b0cb255))
+* **deps:** update dependency next to v15.4.6 ([#157](https://github.com/imevanc/nextjs-starter/issues/157)) ([79419cc](https://github.com/imevanc/nextjs-starter/commit/79419ccdc5c3422aa712d15b7e9bac76e592454b))
+
+## [1.5.8](https://github.com/imevanc/nextjs-starter/compare/v1.5.7...v1.5.8) (2025-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo ([#138](https://github.com/imevanc/nextjs-starter/issues/138)) ([ecd2c90](https://github.com/imevanc/nextjs-starter/commit/ecd2c9023d9d929d57dc6b1df9866cf8e6c2041f))
+
+## [1.5.7](https://github.com/imevanc/nextjs-starter/compare/v1.5.6...v1.5.7) (2025-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.2.4 [security] ([#148](https://github.com/imevanc/nextjs-starter/issues/148)) ([8f5629c](https://github.com/imevanc/nextjs-starter/commit/8f5629cde6a367e9998f8bcf22ed55c6148fce1c))
+
+## [1.5.6](https://github.com/imevanc/nextjs-starter/compare/v1.5.5...v1.5.6) (2025-05-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @headlessui/react to v2.2.4 ([#143](https://github.com/imevanc/nextjs-starter/issues/143)) ([afd3f8a](https://github.com/imevanc/nextjs-starter/commit/afd3f8a69a9fe7d8a8c54bf4e283a7dfdcb8947c))
+* **deps:** update dependency next to v15.2.3 [security] ([#141](https://github.com/imevanc/nextjs-starter/issues/141)) ([b7a6025](https://github.com/imevanc/nextjs-starter/commit/b7a60259c9fe55341a1ee70c153f4f58b3800447))
+
+## [1.5.5](https://github.com/imevanc/nextjs-starter/compare/v1.5.4...v1.5.5) (2025-03-15)
+
+
+### Bug Fixes
+
+* kick ci ([#135](https://github.com/imevanc/nextjs-starter/issues/135)) ([379d770](https://github.com/imevanc/nextjs-starter/commit/379d770da990cabf28a754173f1dc36965068388))
+
+## [1.5.4](https://github.com/imevanc/nextjs-starter/compare/v1.5.3...v1.5.4) (2025-03-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.2.2 ([#131](https://github.com/imevanc/nextjs-starter/issues/131)) ([d6a14df](https://github.com/imevanc/nextjs-starter/commit/d6a14df80d042e9a15ed0b03189d62d239a35964))
+
+## [1.5.3](https://github.com/imevanc/nextjs-starter/compare/v1.5.2...v1.5.3) (2025-03-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v15.2.1 ([#118](https://github.com/imevanc/nextjs-starter/issues/118)) ([d218aa2](https://github.com/imevanc/nextjs-starter/commit/d218aa2e7777e8aadd54b83aab60666b0c219b07))
+
 ## [1.5.2](https://github.com/imevanc/nextjs-starter/compare/v1.5.1...v1.5.2) (2025-01-15)
 
 
