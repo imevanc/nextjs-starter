@@ -9,7 +9,7 @@
     "start": "next start",
     "prettier:fix": "prettier --write \"./**/*.{ts,tsx}\"",
     "prettier:check": "prettier --check \"./**/*.{ts,tsx}\"",
-    "test:type": "tsc --noEmit",
+    "test:type": "tsc --noEmit --skipLibCheck",
     "test:unit": "jest",
     "test:coverage": "jest --collectCoverage --",
     "test:unit:watch": "jest --watch",
@@ -18,7 +18,8 @@
   "dependencies": {
     "@headlessui/react": "^2.1.2",
     "@heroicons/react": "^2.1.5",
-    "next": "15.1.4",
+    "chronobox": "^1.2.0",
+    "next": "15.3.3",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
