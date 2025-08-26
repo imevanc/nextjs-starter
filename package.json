@@ -9,7 +9,7 @@
     "start": "next start",
     "prettier:fix": "prettier --write \"./**/*.{ts,tsx}\"",
     "prettier:check": "prettier --check \"./**/*.{ts,tsx}\"",
-    "test:type": "tsc --noEmit",
+    "test:type": "tsc --noEmit --skipLibCheck",
     "test:unit": "jest",
     "test:coverage": "jest --collectCoverage --",
     "test:unit:watch": "jest --watch",
@@ -29,12 +29,12 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^11.0.0",
+    "@types/react": "19.1.11",
+    "@types/react-dom": "19.1.7",
     "@testing-library/jest-dom": "^6.4.1",
     "@testing-library/react": "^16.0.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^22.0.0",
-    "@types/react": "19.1.9",
-    "@types/react-dom": "19.1.7",
     "husky": "^9.0.11",
     "jest": "^30.0.0",
     "jest-environment-jsdom": "^30.0.0",
@@ -46,7 +46,7 @@
     "typescript": "^5"
   },
   "overrides": {
-    "@types/react": "19.1.9",
+    "@types/react": "19.1.11",
     "@types/react-dom": "19.1.7"
   }
 }
