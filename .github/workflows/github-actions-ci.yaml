@@ -4,6 +4,13 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+  packages: read
+
+env:
+  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   test_prettier:
     name: Test Prettier
