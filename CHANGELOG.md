@@ -1,3 +1,11 @@
+## [1.5.13](https://github.com/imevanc/nextjs-starter/compare/v1.5.12...v1.5.13) (2025-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @headlessui/react to v2.2.8 ([#181](https://github.com/imevanc/nextjs-starter/issues/181)) ([b26bff2](https://github.com/imevanc/nextjs-starter/commit/b26bff2180190d1fc7c85d6c72ae3ccaeaa6f932))
+* **deps:** update dependency next to v15.5.3 ([#179](https://github.com/imevanc/nextjs-starter/issues/179)) ([dcde615](https://github.com/imevanc/nextjs-starter/commit/dcde615ebcb79a37d23baa4d2dcf7ce70cacaa18))
+
 ## [1.5.12](https://github.com/imevanc/nextjs-starter/compare/v1.5.11...v1.5.12) (2025-08-27)
 
 
