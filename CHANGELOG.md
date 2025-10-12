@@ -1,3 +1,10 @@
+## [1.5.14](https://github.com/imevanc/nextjs-starter/compare/v1.5.13...v1.5.14) (2025-10-12)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo ([#188](https://github.com/imevanc/nextjs-starter/issues/188)) ([6c83c16](https://github.com/imevanc/nextjs-starter/commit/6c83c16e23bbc1704e2786675abdfd16ca0bf122))
+
 ## [1.5.13](https://github.com/imevanc/nextjs-starter/compare/v1.5.12...v1.5.13) (2025-09-13)
 
 
