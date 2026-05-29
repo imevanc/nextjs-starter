@@ -1,3 +1,10 @@
+## [1.5.15](https://github.com/imevanc/nextjs-starter/compare/v1.5.14...v1.5.15) (2026-05-29)
+
+
+### Bug Fixes
+
+* resolve vulnerabilities ([#201](https://github.com/imevanc/nextjs-starter/issues/201)) ([a5627a6](https://github.com/imevanc/nextjs-starter/commit/a5627a6f2c8108d58a1f0a6ba566c7738619731d))
+
 ## [1.5.14](https://github.com/imevanc/nextjs-starter/compare/v1.5.13...v1.5.14) (2025-10-12)
 
 
